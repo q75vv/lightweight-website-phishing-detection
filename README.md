@@ -98,3 +98,5 @@ pip install numpy pandas matplotlib scikit-learn xgboost
  - Run all cells in order. 
 
  This project was developed as part of the CS4403 Data Mining course at the Univeristy of New Brunswick, Saint John. 
+
+ NOTE: This README was generated with the help of AI. 
