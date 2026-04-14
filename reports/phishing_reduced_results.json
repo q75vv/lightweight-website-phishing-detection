@@ -1,0 +1,67 @@
+[
+    {
+        "Model": "Logistic Regression",
+        "Best Parameters": {
+            "C": 1,
+            "solver": "liblinear"
+        },
+        "CV Accuracy Mean": 0.8932696130298108,
+        "CV Accuracy Std": 0.0015706088404171762,
+        "CV Recall Mean": 0.9424888430993577,
+        "Test Accuracy": 0.8977439368302312,
+        "Test Recall": 0.9464926590538336,
+        "Test F1-Score": 0.8648729224118655,
+        "Training Time (s)": 4.023107290267944,
+        "Prediction Time (s)": 0.002053976058959961
+    },
+    {
+        "Model": "Decision Tree",
+        "Best Parameters": {
+            "max_depth": null,
+            "min_samples_leaf": 4,
+            "min_samples_split": 2
+        },
+        "CV Accuracy Mean": 0.9243200354769632,
+        "CV Accuracy Std": 0.0017938348529416691,
+        "CV Recall Mean": 0.9064730652305627,
+        "Test Accuracy": 0.9292724196277495,
+        "Test Recall": 0.9084828711256118,
+        "Test F1-Score": 0.8988056810845707,
+        "Training Time (s)": 3.717149019241333,
+        "Prediction Time (s)": 0.009895086288452148
+    },
+    {
+        "Model": "Random Forest",
+        "Best Parameters": {
+            "max_depth": null,
+            "min_samples_leaf": 1,
+            "min_samples_split": 5,
+            "n_estimators": 100
+        },
+        "CV Accuracy Mean": 0.9344727154228754,
+        "CV Accuracy Std": 0.0011908184796139123,
+        "CV Recall Mean": 0.9196475657111753,
+        "Test Accuracy": 0.9375070501974055,
+        "Test Recall": 0.9220228384991843,
+        "Test F1-Score": 0.910731550112794,
+        "Training Time (s)": 87.3303918838501,
+        "Prediction Time (s)": 0.13335490226745605
+    },
+    {
+        "Model": "XGBoost",
+        "Best Parameters": {
+            "learning_rate": 0.3,
+            "max_depth": 9,
+            "n_estimators": 200,
+            "subsample": 1.0
+        },
+        "CV Accuracy Mean": 0.9336689829768876,
+        "CV Accuracy Std": 0.001927420753713851,
+        "CV Recall Mean": 0.9205858084024197,
+        "Test Accuracy": 0.9366610265087423,
+        "Test Recall": 0.9239804241435563,
+        "Test F1-Score": 0.9098064412496988,
+        "Training Time (s)": 16.20133686065674,
+        "Prediction Time (s)": 0.0428769588470459
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "Model": "Logistic Regression",
+        "CV Accuracy Mean": 0.9240379281631661,
+        "CV Accuracy Std": 0.0021464579297872446,
+        "CV Recall Mean": 0.9446097688301499,
+        "Test Accuracy": 0.9271291596164692,
+        "Test Recall": 0.9446982055464926,
+        "Test F1-Score": 0.8996426906944228,
+        "Training Time (s)": 45.89923024177551,
+        "Prediction Time (s)": 0.008292913436889648
+    },
+    {
+        "Model": "Decision Tree",
+        "CV Accuracy Mean": 0.9550460136355581,
+        "CV Accuracy Std": 0.001455749747937393,
+        "CV Recall Mean": 0.9483622155626662,
+        "Test Accuracy": 0.9563451776649746,
+        "Test Recall": 0.9494290375203915,
+        "Test F1-Score": 0.9376510391493476,
+        "Training Time (s)": 13.455878734588623,
+        "Prediction Time (s)": 0.012946844100952148
+    },
+    {
+        "Model": "Random Forest",
+        "CV Accuracy Mean": 0.9701059083507543,
+        "CV Accuracy Std": 0.0019369256581867752,
+        "CV Recall Mean": 0.9582738071274404,
+        "Test Accuracy": 0.9715172024816695,
+        "Test Recall": 0.9582381729200653,
+        "Test F1-Score": 0.9587856035256672,
+        "Training Time (s)": 154.9956932067871,
+        "Prediction Time (s)": 0.23377585411071777
+    },
+    {
+        "Model": "XGBoost",
+        "CV Accuracy Mean": 0.9724184715231674,
+        "CV Accuracy Std": 0.001316110297981142,
+        "CV Recall Mean": 0.9649630399073177,
+        "Test Accuracy": 0.9733784545967287,
+        "Test Recall": 0.96557911908646,
+        "Test F1-Score": 0.9616571892770106,
+        "Training Time (s)": 48.49559187889099,
+        "Prediction Time (s)": 0.04568004608154297
+    }
+]
